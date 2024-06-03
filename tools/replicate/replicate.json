@@ -1,0 +1,13 @@
+{
+  "name": "bff554dc-1867-4b73-930b-457c7bb40ee0",
+  "displayName": "replicate",
+  "description": "Gets the user input and simply forwards the user query content into the input parameter payload, to call the function and return the output.",
+  "openApiSpec": {
+    "authentication": {
+      "bearerTokenConfig": {
+        "token": "hello"
+      }
+    }
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

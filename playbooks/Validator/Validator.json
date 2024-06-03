@@ -1,0 +1,21 @@
+{
+  "name": "1a056e1f-23d2-4ad3-bc4a-3d6e93f3e13a",
+  "displayName": "Validator",
+  "goal": "Your goal is to validate a customer's customer-id and create a session id. Keep asking the customer his/her customer-id until it's get validated and a session id is generated. ",
+  "steps": [ {
+    "text": "Greet the users saying which company you are from, then ask how you can help them today."
+  }, {
+    "text": "Ask the user for their customer ID"
+  }, {
+    "text": "Use ${TOOL:"
+  } ],
+  "instruction": {
+    "steps": [ {
+      "text": "Greet the users saying which company you are from, then ask how you can help them today."
+    }, {
+      "text": "Ask the user for their customer ID"
+    }, {
+      "text": "Use ${TOOL:"
+    } ]
+  }
+}

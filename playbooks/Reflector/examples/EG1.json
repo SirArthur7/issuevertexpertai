@@ -1,0 +1,92 @@
+{
+  "name": "4ae02709-5964-4947-a1df-ea409de0230d",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "Hi there! I'm reflector"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Tell me poem"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/agentbuilderhackathon/locations/us-central1/agents/4fe83929-eb1d-465b-8a99-3b04f1852a0d/tools/bff554dc-1867-4b73-930b-457c7bb40ee0",
+      "action": "echo",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "chat": "Tell me poem"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "chat": "Tell me poem"
+        }
+      } ],
+      "inputActionParameters": {
+        "requestBody": {
+          "chat": "Tell me poem"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "chat": "Tell me poem"
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Tell me poem"
+    }
+  }, {
+    "userUtterance": {
+      "text": "I like to move it"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/agentbuilderhackathon/locations/us-central1/agents/4fe83929-eb1d-465b-8a99-3b04f1852a0d/tools/bff554dc-1867-4b73-930b-457c7bb40ee0",
+      "action": "echo",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "chat": "I like to move it"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "chat": "I like to move it"
+        }
+      } ],
+      "inputActionParameters": {
+        "requestBody": {
+          "chat": "I like to move it"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "chat": "I like to move it"
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "I like to move it"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Ok stop"
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "User wants to use reflector chatbot"
+  },
+  "playbookOutput": {
+    "executionSummary": "Ok stop"
+  },
+  "displayName": "EG1",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}
