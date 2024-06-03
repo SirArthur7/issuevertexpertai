@@ -1,6 +1,9 @@
 {
+  "fallbackSettings": {
+  
+  },
   "languageCode": "en",
-  "llmModelSettings": {
-    "model": "gemini-pro"
+  "knowledgeConnectorSettings": {
+    "business": "JU"
   }
 }
